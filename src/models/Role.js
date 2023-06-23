@@ -8,7 +8,7 @@ const RoleSchema = new Schema({
     required: true,
     unique: true
   },
-  status: {
+  status: {             
     type: Boolean,
     default: true
   },
